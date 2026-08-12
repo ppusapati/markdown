@@ -1,0 +1,1 @@
+{"scripts":{"test":"echo \"frontend smoke test\""},"dependencies":{"@tauri-apps/api":"^2.0.0"},"devDependencies":{}}
