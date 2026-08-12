@@ -1,6 +1,8 @@
-node_modules
-.svelte-kit
-build
-dist
 .DS_Store
+node_modules/
+build/
+.svelte-kit/
+dist/
+src-tauri/target/
+src-tauri/gen/schemas/
 *.log
