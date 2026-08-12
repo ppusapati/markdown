@@ -2,6 +2,12 @@
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "Markdown Workspace",
   "version": "0.1.0",
+  "identifier": "dev.markdown.workspace",
+  "build": {
+    "frontendDist": "../build",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
   "identifier": "com.markdownworkspace.app",
   "build": {
     "beforeDevCommand": "npm run dev",
@@ -14,6 +20,7 @@
       {
         "title": "Markdown Workspace",
         "width": 1200,
+        "height": 800
         "height": 800,
         "minWidth": 800,
         "minHeight": 600
