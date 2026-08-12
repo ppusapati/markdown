@@ -1,0 +1,22 @@
+{
+  "name": "markdown-document-viewers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "vite": "latest",
+    "svelte": "latest",
+    "pdfjs-dist": "latest",
+    "docx-preview": "latest",
+    "xlsx": "latest"
+  },
+  "devDependencies": {
+    "svelte-check": "latest",
+    "typescript": "latest"
+  }
+}

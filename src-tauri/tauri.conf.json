@@ -8,6 +8,12 @@
     "devUrl": "http://localhost:5173",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
+  "identifier": "com.markdownworkspace.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://127.0.0.1:1420",
+    "frontendDist": "../build"
   },
   "app": {
     "windows": [
@@ -15,10 +21,18 @@
         "title": "Markdown Workspace",
         "width": 1200,
         "height": 800
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600
       }
     ],
     "security": {
       "csp": null
     }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Productivity"
   }
 }
