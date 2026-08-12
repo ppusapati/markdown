@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default desktop capability set for the Markdown Workspace shell.",
+  "windows": ["main"],
+  "permissions": []
+}
